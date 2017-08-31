@@ -1,0 +1,13 @@
+{
+  "name": "nw-build-test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "nw": "^0.24.4",
+    "nw-builder": "^3.4.1"
+  },
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,linux32,linux64 --buildDir dist/ src/",
+    "build": "nwbuild"
+  }
+}

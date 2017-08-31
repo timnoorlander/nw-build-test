@@ -1,0 +1,14 @@
+{
+  "name":"nw-build-test",
+  "main":"main.html",
+  "window":{
+    "min_width":400,
+    "min_height":400,
+    "icon":"assets/icon.png"
+  }
+}
+
+
+
+
+zip -r ../${PWD##*/}.nw *
